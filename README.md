@@ -1,15 +1,17 @@
-<img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/ff4d9c09-bc5a-4460-9aca-87f644dcc3be" />Markdown
+Markdown
 # 🎵 BINIX MUSIC
 
 > 一个具有极致视觉美学、3D 黑胶交互以及 GPU 流体渲染的高级沉浸式网页音乐播放器。
 
 BINIX MUSIC 致力于打破传统 Web 音乐播放器的边界，通过引入高精度的 3D 机械空间标定、动态液态背景流体（Liquid Shaders）、精确到逐字的歌词高亮系统以及跨多平台（本地导入/全网搜歌）的音乐支持，为您提供发烧级的聆听与视觉双重盛宴。
+
+成品展示
 <img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/d08668f9-8e13-4e17-afc2-1d81f218f58d" />
 <img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/ae864ded-3d59-4807-b038-3b377cc22810" />
 <img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/e49c403f-879d-42f2-af0c-4645fcc7d79d" />
 <img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/a6d20af5-4dd1-4cee-8e71-fff30980b21c" />
 <img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/a4f06373-5a37-4ad5-b400-757e70e2d80c" />
-
+<img width="2560" height="1347" alt="image" src="https://github.com/user-attachments/assets/ff4d9c09-bc5a-4460-9aca-87f644dcc3be" />
 ---
 
 ## ✨ 核心特性 
