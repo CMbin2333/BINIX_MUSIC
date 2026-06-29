@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap');
+
+@theme {
+  --animate-slow-spin: spin 45s linear infinite;
+  --animate-fade-in: fadeIn 0.5s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+}
+
+@keyframes wave {
+  0% {
+    transform: scaleY(0.4);
+  }
+  100% {
+    transform: scaleY(1.15);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Custom hide scrollbars utilities for premium and seamless design interfaces */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  background-color: #040b15;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Perfect touch discipline for interactive media widgets */
+* {
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+}
+
+@keyframes metalSheen {
+  0% {
+    background-position: -150% 50%;
+    filter: brightness(1) contrast(1.1) saturate(0.9);
+  }
+  50% {
+    background-position: 150% 50%;
+    filter: brightness(1.28) contrast(1.35) saturate(1.15) drop-shadow(0 0 2px rgba(255, 255, 255, 0.35));
+  }
+  100% {
+    background-position: -150% 50%;
+    filter: brightness(1) contrast(1.1) saturate(0.9);
+  }
+}
+
+.animate-metal-sheen {
+  background-size: 400% 400%;
+  animation: metalSheen 5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+

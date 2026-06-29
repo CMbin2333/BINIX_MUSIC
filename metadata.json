@@ -1,0 +1,8 @@
+{
+  "name": "BINIX MUSIC",
+  "description": "A premium BINIX-style lyric player featuring smooth-scrolling synchronized lyrics and a stunning, realistically lit dynamic WebGL2 liquid silk background.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
